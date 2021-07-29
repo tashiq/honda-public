@@ -1,0 +1,79 @@
+header,footer{
+    margin: 0;
+    padding: 0;
+
+}
+.bg-blue-gray{
+    background-color: #264653;
+}
+.font-popins{
+    font-family: 'Poppins', sans-serif;
+}
+.fs-3rem{
+    font-size: 3rem;
+}
+.py-6rem{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.btn-fancy{
+    background: #E76F51;
+}
+.text-fancy{
+    color: #E76F51
+}
+.text-gray{
+    color: #6C6C6C;
+}
+.text-sm{
+    font-size: 14px;
+}
+.text-20{
+    font-size: 20px;
+}
+.line{
+    border-bottom:1px solid #E76F51;
+    width: 50px;
+    height: 1px;
+}
+.circle-border{
+    border-radius: 50%;
+}
+.bg-footer{
+    background-color: #0B0D17;
+}
+
+
+/* specific */
+.feature>div>div:nth-child(2n+1){
+    filter: grayscale(1)
+}
+.bike img{
+    padding: 0;
+    margin:0;
+}
+.bike div{
+    margin: 0;
+    padding: 0;
+}
+.feature div img{
+    width: 288px;
+    height: auto;
+}
+.client img{
+    width: 150px;
+    height: auto;
+}
+.extra-1>div>div{
+    
+    border-radius: 10px;
+}
+.extra-1>div>div>div{
+    padding: 10px;
+    border-radius: 10px;
+}
+/* extra-2 */
+.carousel{
+    background-color: aliceblue;
+    margin: 5% 10%;
+}
